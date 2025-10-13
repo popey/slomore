@@ -16,6 +16,12 @@ This is useful when making tutorials where command line tools spew lots of outpu
 
 Slomore is written in Rust. Binary builds are available with tagged [releases](https://github.com/popey/slomore/releases).
 
+## Install the snap
+
+```bash
+snap install slomore
+```
+
 ## Build from source
 
 Compile using `cargo`.
