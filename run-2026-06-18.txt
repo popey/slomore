@@ -1,0 +1,3 @@
+2026-06-18T13:48:06Z - Created branch repo-assist/improve-main-2026-06-18, committed improvements to src/main.rs (env parsing, stdout lock).
+2026-06-18T13:48:06Z - Created draft PR (branch repo-assist/improve-main-2026-06-18).
+2026-06-18T13:48:06Z - Commented on issue #6 (suggested --burst-size and --burst-pause).
