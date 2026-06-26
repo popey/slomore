@@ -1,0 +1,6 @@
+Run 2026-06-26 UTC
+Selected tasks: [2 (Issue Investigation and Comment), 4 (Engineering Investments), 3 (Issue Investigation and Fix)]
+Actions:
+- Substituted Task 2 with Task 1 because no human-authored issues lacking Repo Assist comments were found; Task 1 had no unlabelled issues.
+- Updated Monthly Activity issue #17 with run summary and noted substitutions.
+- No code changes made (protected workflow files and agentic issues require maintainer review).
