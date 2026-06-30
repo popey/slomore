@@ -1,6 +1,6 @@
 # slomore
 
-slower `more` = `slomore`
+slower `more`: `slomore`
 
 A custom pager that outputs lines with a delay, allowing control over pacing.
 
@@ -40,10 +40,9 @@ cp target/release/slomore /usr/local/bin
 
 ## Usage
 
-```
-slomore 0.1.0
-A custom pager that outputs lines with a delay, allowing control over pacing.
+Run `slomore --help` to see the current command-line options:
 
+```text
 Usage: slomore [OPTIONS]
 
 Options:
@@ -100,6 +99,10 @@ seq 1 20 | slomore --lines-per-second 2
 ```
 
 ![Initial lines output immediately before slow scrolling](./gifs/initial-lines.gif)
+
+## Repo Automation
+
+This repository uses Repo Assist to triage issues and suggest small, focused maintenance changes. Automated suggestions should still be reviewed like any other contribution before merging.
 
 ## Caveats
 

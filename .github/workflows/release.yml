@@ -43,7 +43,23 @@ jobs:
         with:
           targets: ${{ matrix.job.target }}
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
+      - name: Cache Cargo registry and git index
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+          key: cargo-registry-${{ runner.os }}-${{ hashFiles('**/Cargo.lock', '**/Cargo.toml') }}
+          restore-keys: |
+            cargo-registry-${{ runner.os }}-
+      - name: Cache Cargo build output
+        uses: actions/cache@v4
+        with:
+          path: target
+          key: cargo-target-${{ runner.os }}-${{ matrix.job.target }}-${{ hashFiles('**/Cargo.lock', '**/Cargo.toml') }}
+          restore-keys: |
+            cargo-target-${{ runner.os }}-${{ matrix.job.target }}-
       - name: Install cross
         if: matrix.job.use-cross
         uses: taiki-e/install-action@v2
