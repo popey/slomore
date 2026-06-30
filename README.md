@@ -49,6 +49,7 @@ Usage: slomore [OPTIONS]
 Options:
   -s, --seconds-per-line <SECONDS>  Set delay in seconds between lines. Must be greater than 0.
   -l, --lines-per-second <LINES>    Set the number of lines to display per second. Must be greater than 0.
+  -i, --initial-lines <LINES>       Set the number of initial lines to display without delay.
   -h, --help                        Print help
   -V, --version                     Print version
 ```
@@ -84,6 +85,21 @@ find /bin | slomore
 ```
 
 ![Slow down output](./gifs/findpipeslomore2.gif)
+
+### Show initial lines immediately
+
+Use `--initial-lines` or `SLOMORE_INITIAL_LINES` to fill the first few lines without delay, then start the slow scrolling.
+
+```bash
+seq 1 20 | slomore --initial-lines 5 --lines-per-second 2
+```
+
+```bash
+export SLOMORE_INITIAL_LINES=5
+seq 1 20 | slomore --lines-per-second 2
+```
+
+![Initial lines output immediately before slow scrolling](./gifs/initial-lines.gif)
 
 ## Caveats
 
