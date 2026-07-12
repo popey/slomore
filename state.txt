@@ -1,18 +1,19 @@
-Repo Assist memory state (2026-07-11 follow-up)
-
-Backlog / pending maintainer attention:
-- Review draft PR: perf: reduce output formatting overhead (repo-assist/eng-output-write-2026-07-11)
-- Review draft PR #aw_bundledwf: bundle workflow dependency updates
-- Close PRs #67, #68, #70, #86 (superseded bundle / dependency updates)
-- Check comments #60, #61, #63, #66, #74, #80, #83 (all still need maintainer acknowledgment)
-- Close issues #61, #65, #71, #83 when superseded/covered
-
-Recent Repo Assist actions:
-- 2026-07-11: created perf PR to reduce output formatting overhead; validated with cargo fmt/test/build and git diff --check; updated monthly summary #62.
-- 2026-07-11: previous run created bundled workflow dependency PR and updated monthly summary.
-- 2026-07-10: flush-output fix PR and config-resolution refactor PR were created previously.
-
-Notes:
-- No open bug/help wanted/good first issue issues were fixable this run.
-- No substantive issue comment was posted this run because the oldest candidates already had Repo Assist replies and no new human activity.
-- Keep the monthly activity issue current with any new PRs/comments and remove checklist items once actioned.
+1. Repo Assist memory state (2026-07-12 follow-up)
+2.
+3. Backlog / pending maintainer attention:
+4. - Review draft PR #aw_burstscroll: burst scrolling controls
+5. - Review draft PR #aw_bundledwf: bundle workflow dependency updates
+6. - Close PRs #67, #68, #70, #86 (superseded bundle / dependency updates)
+7. - Check comments #60, #61, #63, #66, #74, #80, #83 (still need maintainer acknowledgment)
+8. - Close issues #61, #65, #71, #83 when superseded/covered
+9.
+10. Recent Repo Assist actions:
+11. - 2026-07-12: created burst scrolling controls PR; validated with cargo fmt/test/build and git diff --check; updated monthly summary #62.
+12. - 2026-07-11: created perf PR to reduce output formatting overhead; validated with cargo fmt/test/build and git diff --check; updated monthly summary #62.
+13. - 2026-07-11: previous run created bundled workflow dependency PR and updated monthly summary.
+14. - 2026-07-10: flush-output fix PR and config-resolution refactor PR were created previously.
+15.
+16. Notes:
+17. - No open bug/help wanted/good first issue issues were fixable this run.
+18. - No substantive issue comment was posted this run because the oldest candidates already had Repo Assist replies and no new human activity justified another reply.
+19. - Keep the monthly activity issue current with any new PRs/comments and remove checklist items once actioned.
