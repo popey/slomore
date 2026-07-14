@@ -1,20 +1,21 @@
-1. Repo Assist memory state (2026-07-13 run)
+1. Repo Assist memory state (2026-07-14 run)
 2.
 3. Backlog / pending maintainer attention:
-4. - Review open PRs #67, #68, #70, #86, and the new CLI metadata draft PR from branch `repo-assist/improve-cli-metadata` (created via safeoutputs temporary id `#aw_cli_meta`)
+4. - Review open PRs #67, #68, #70, #86, plus the CLI metadata draft PR from branch `repo-assist/improve-cli-metadata-2026-07-14`
 5. - Review the initial-lines pacing boundary draft PR from branch `repo-assist/test-initial-lines-boundary-2026-07-13`
-6. - Check comments #6, #22, #60, #61, #63, #66, #74, #75, #80, #83, #88 (pending maintainer acknowledgment)
+6. - Check comments #6, #22, #60, #61, #63, #66, #72, #74, #75, #80, #83, #88 (pending maintainer acknowledgment)
 7. - Close issues #61, #65, #71, #83 when superseded/covered
 8.
 9. Recent Repo Assist actions:
-10. - 2026-07-13: created CLI metadata cleanup PR and updated monthly summary #62; validated with cargo fmt/test/build, cargo run -- --version, and git diff --check.
-11. - 2026-07-13: task 3 had no fixable bug/help wanted/good first issue issue; selected work continued as a coding improvement.
-12. - 2026-07-13: previous initial-lines pacing boundary draft PR and related comment/validation from the earlier run remain pending maintainer attention.
-13. - 2026-07-12: created burst scrolling controls PR; validated with cargo fmt/test/build and git diff --check; updated monthly summary #62.
-14. - 2026-07-11: created perf PR to reduce output formatting overhead; validated with cargo fmt/test/build and git diff --check; updated monthly summary #62.
-15. - 2026-07-11: previous run created bundled workflow dependency PR and updated monthly summary.
-16. - 2026-07-10: flush-output fix PR and config-resolution refactor PR were created previously.
-17. 
-18. Notes:
-19. - No open bug/help wanted/good first issue issues were fixable this run.
-20. - Keep the monthly activity issue current with any new PRs/comments and remove checklist items once actioned.
+10. - 2026-07-14: created a draft PR for CLI metadata cleanup from Cargo, commented on issue #72, and updated monthly summary #62; validated with cargo fmt/test/build, cargo run -- --version/--help, and git diff --check.
+11. - 2026-07-13: created CLI metadata cleanup PR and updated monthly summary #62; validated with cargo fmt/test/build, cargo run -- --version, and git diff --check.
+12. - 2026-07-13: task 3 had no fixable bug/help wanted/good first issue issue; selected work continued as a testing improvement.
+13. - 2026-07-13: previous initial-lines pacing boundary draft PR and related comment/validation from the earlier run remain pending maintainer attention.
+14. - 2026-07-12: created burst scrolling controls PR; validated with cargo fmt/test/build and git diff --check; updated monthly summary #62.
+15. - 2026-07-11: created perf PR to reduce output formatting overhead; validated with cargo fmt/test/build and git diff --check; updated monthly summary #62.
+16. - 2026-07-11: previous run created bundled workflow dependency PR and updated monthly summary.
+17. - 2026-07-10: flush-output fix PR and config-resolution refactor PR were created previously.
+18. 
+19. Notes:
+20. - No open bug/help wanted/good first issue issues were fixable this run.
+21. - Keep the monthly activity issue current with any new PRs/comments and remove checklist items once actioned.
