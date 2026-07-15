@@ -1,1 +1,1 @@
-1. Run 2026-07-07 UTC: improved env parsing errors, added CI workflow, validated with cargo fmt/test/build, and created a draft PR intent.
+run-2026-07-07: archived run note; see state.txt for current backlog.

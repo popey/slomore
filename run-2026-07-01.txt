@@ -1,8 +1,1 @@
-Run 2026-07-01 UTC
-- Selected tasks: [2 (Issue Investigation and Comment) -> no new human comments since last Repo Assist reply on #6, 5 (Coding Improvements), 1 (Issue Labelling) -> no unlabelled issues]
-- Implemented burst scrolling support on branch repo-assist/improve-burst-scrolling.
-- Added CLI flags --burst-size and --burst-pause, helper scheduling logic, tests, and README updates.
-- Ran cargo fmt --all, cargo test --quiet, and cargo build --quiet successfully.
-- Created draft PR via safeoutputs: Add burst scrolling support.
-- Created July monthly activity issue via safeoutputs.
-- No new issue comments were posted this run.
+run-2026-07-01: archived run note; see state.txt for current backlog.

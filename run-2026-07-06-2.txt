@@ -1,1 +1,1 @@
-1. Run 2026-07-06 UTC: repeated the CLI metadata refactor work, including the Cargo-backed metadata test and validation, then updated the draft PR intent.
+run-2026-07-06-2: archived run note; see state.txt for current backlog.

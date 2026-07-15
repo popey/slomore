@@ -1,4 +1,1 @@
-1. Run 2026-07-09 UTC
-2. - Implemented burst scrolling and flush-output pacing improvements on the existing repo-assist branches.
-3. - Validation passed with cargo fmt, cargo test, and cargo build.
-4. - Updated issue #61, the monthly summary issue #62, and kept the burst-related follow-ups on the backlog.
+run-2026-07-09: archived run note; see state.txt for current backlog.

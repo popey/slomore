@@ -1,5 +1,1 @@
-2026-06-12T13:45:13Z - Repo Assist run
-- Commented on issue #5: suggested --show-first / SLOMORE_SHOW_FIRST
-- Commented on issue #6: proposed burst-lines/pause options
-- Created branch repo-assist/improve-env-parse-2026-06-12 and draft PR (compare link)
-- Substituted Task 3 with Task 2 (no fixable bug/help-wanted/good-first-issue found)
+run-2026-06-12: archived run note; see state.txt for current backlog.

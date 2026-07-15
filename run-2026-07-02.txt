@@ -1,8 +1,1 @@
-Run 2026-07-02 UTC
-- Selected tasks: [4 (Engineering Investments), 5 (Coding Improvements), 9 (Testing Improvements)]
-- Task 4: no dependency bump was actionable; fixed invalid workflow action versions instead (`actions/checkout@v4`, `actions/upload-artifact@v4`).
-- Task 5/9: refactored CLI delay/initial-line resolution into helpers and added tests for precedence/defaults.
-- Branch: repo-assist/ci-and-tests-improvements
-- Checks: cargo fmt --all, cargo test --quiet, cargo build --quiet
-- PR: draft PR created via safeoutputs (temporary id #aw_ci_tests)
-- Monthly issue #62 updated with the new PR and current pending actions.
+run-2026-07-02: archived run note; see state.txt for current backlog.
