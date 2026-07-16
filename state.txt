@@ -1,15 +1,16 @@
-Repo Assist memory state (2026-07-15)
-
-Backlog / pending maintainer attention:
-- Review open PRs #67, #68, #70, #86, plus the perf draft PR on branch repo-assist/perf-reuse-input-buffer-2026-07-15
-- Check comments #6, #22, #60, #61, #63, #66, #72, #74, #75, #80, #82, #83, #88
-- Close issues #61, #65, #71, #83 when superseded/covered
-
-Recent Repo Assist actions:
-- 2026-07-15: commented on #82, created perf PR, updated monthly summary #62, validated with cargo fmt/test/build and git diff --check
-- 2026-07-14: created perf draft PR, updated summary #62, validated with cargo fmt/test/build and git diff --check
-- 2026-07-14: created CLI metadata cleanup PR and commented on #72
-
-Notes:
-- No open bug/help wanted/good first issue issues were fixable this run.
-- Keep the monthly activity issue current with new PRs/comments and remove checklist items once actioned.
+1. Repo Assist memory state (2026-07-16)
+2. 
+3. Backlog / pending maintainer attention:
+4. - Review open PRs #67, #68, #70, #86, plus the perf draft PR on branch repo-assist/perf-reuse-input-buffer-2026-07-15 and the new burst-scrolling PR on branch repo-assist/improve-burst-scrolling-2026-07-16
+5. - Check comments #6, #22, #60, #61, #63, #66, #72, #74, #75, #80, #82, #83, #88
+6. - Close issues #61, #65, #71, #83 when superseded/covered
+7. 
+8. Recent Repo Assist actions:
+9. - 2026-07-16: commented on #6, created burst-scrolling PR, updated monthly summary #62, validated with cargo fmt/test/build/help
+10. - 2026-07-15: commented on #82, created perf PR, updated monthly summary #62, validated with cargo fmt/test/build and git diff --check
+11. - 2026-07-14: created perf draft PR, updated summary #62, validated with cargo fmt/test/build and git diff --check
+12. - 2026-07-14: created CLI metadata cleanup PR and commented on #72
+13. 
+14. Notes:
+15. - Burst scrolling is now implemented on the branch `repo-assist/improve-burst-scrolling-2026-07-16`.
+16. - Keep the monthly activity issue current with new PRs/comments and remove checklist items once actioned.
