@@ -1,12 +1,12 @@
 1. Repo Assist memory state (2026-07-16)
 2. 
 3. Backlog / pending maintainer attention:
-4. - Review open PRs #67, #68, #70, #86, plus the perf draft PR on branch repo-assist/perf-reuse-input-buffer-2026-07-15 and the new burst-scrolling PR on branch repo-assist/improve-burst-scrolling-2026-07-16
-5. - Check comments #6, #22, #60, #61, #63, #66, #72, #74, #75, #80, #82, #83, #88
+4. - Review open PRs #67, #68, #70, #86, plus the workflow dependency bundle PR on branch repo-assist/eng-workflow-deps-bundle-2026-07-16, the perf draft PR on branch repo-assist/perf-reuse-input-buffer-2026-07-15, and the burst-scrolling PR on branch repo-assist/improve-burst-scrolling-2026-07-16
+5. - Check comments #6, #22, #60, #61, #63, #66, #71, #72, #74, #75, #80, #82, #83, #88
 6. - Close issues #61, #65, #71, #83 when superseded/covered
 7. 
 8. Recent Repo Assist actions:
-9. - 2026-07-16: commented on #6, created burst-scrolling PR, updated monthly summary #62, validated with cargo fmt/test/build/help
+9. - 2026-07-16: commented on #6 and #71, created burst-scrolling PR plus workflow dependency bundle PR, updated monthly summary #62, validated with cargo fmt/test/build/help
 10. - 2026-07-15: commented on #82, created perf PR, updated monthly summary #62, validated with cargo fmt/test/build and git diff --check
 11. - 2026-07-14: created perf draft PR, updated summary #62, validated with cargo fmt/test/build and git diff --check
 12. - 2026-07-14: created CLI metadata cleanup PR and commented on #72
