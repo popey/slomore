@@ -1,20 +1,21 @@
-1. Repo Assist memory state (2026-07-18)
-2. 
-3. Backlog / pending maintainer attention:
-4. - Review open PRs #67, #68, #70, #102, plus the workflow dependency bundle PR on branch repo-assist/eng-workflow-deps-bundle-2026-07-16, the perf draft PR on branch repo-assist/perf-reuse-input-buffer-2026-07-15, the burst-scrolling PR on branch repo-assist/improve-burst-scrolling-2026-07-16, the flush-output PR on branch repo-assist/fix-output-flush-2026-07-17, the new flush-output PR on branch repo-assist/fix-output-flush-2026-07-18, and the new test-boundary PR on branch repo-assist/test-initial-lines-boundary-2026-07-18
-5. - Check comments #6, #22, #60, #61, #63, #66, #71, #72, #73, #74, #75, #80, #82, #88, #103
-6. - Close issues #61, #65, #71, #73 when superseded/covered
-7. 
-8. Recent Repo Assist actions:
-9. - 2026-07-18: commented on #103, created flush-output PR, updated monthly summary #62, validated with cargo fmt/test/build
-10. - 2026-07-18: commented on #103, created test-boundary PR, updated monthly summary #62, validated with cargo fmt/test/build
-11. - 2026-07-17: created flush-output PR, closed #83, commented on monthly summary #62, validated with cargo fmt/test/build
-12. - 2026-07-17: commented on #73, created CLI metadata PR, updated monthly summary #62, validated with cargo fmt/test/build
-13. - 2026-07-16: commented on #6 and #71, created burst-scrolling PR plus workflow dependency bundle PR, updated monthly summary #62, validated with cargo fmt/test/build
-14. - 2026-07-15: commented on #82, created perf PR, updated monthly summary #62, validated with cargo fmt/test/build and git diff --check
-15. - 2026-07-14: created perf draft PR, updated summary #62, validated with cargo fmt/test/build and git diff --check
-16. - 2026-07-14: created CLI metadata cleanup PR and commented on #72
-17. 
-18. Notes:
-19. - Burst scrolling is now implemented on the branch `repo-assist/improve-burst-scrolling-2026-07-16`.
-20. - Keep the monthly activity issue current with new PRs/comments and remove checklist items once actioned.
+1. Repo Assist memory state (2026-07-19)
+
+Backlog / pending maintainer attention:
+- Review open PRs #67, #68, #70, #102, plus the new workflow dependency bundle PR on branch repo-assist/eng-workflow-deps-bundle-2026-07-19, the perf draft PR on branch repo-assist/perf-reuse-input-buffer-2026-07-15, the burst-scrolling PR on branch repo-assist/improve-burst-scrolling-2026-07-16, the flush-output PR on branch repo-assist/fix-output-flush-2026-07-17, the new flush-output PR on branch repo-assist/fix-output-flush-2026-07-18, and the new test-boundary PR on branch repo-assist/test-initial-lines-boundary-2026-07-18
+- Check comments #6, #22, #60, #61, #63, #64, #66, #71, #72, #73, #74, #75, #80, #82, #88, #103
+- Close issues #61, #65, #71, #73 when superseded/covered
+
+Recent Repo Assist actions:
+- 2026-07-19: commented on #64, created workflow dependency bundle PR, updated monthly summary #62, validated with cargo fmt/test/build
+- 2026-07-18: commented on #103, created flush-output PR, updated monthly summary #62, validated with cargo fmt/test/build
+- 2026-07-18: commented on #103, created test-boundary PR, updated monthly summary #62, validated with cargo fmt/test/build
+- 2026-07-17: created flush-output PR, closed #83, commented on monthly summary #62, validated with cargo fmt/test/build
+- 2026-07-17: commented on #73, created CLI metadata PR, updated monthly summary #62, validated with cargo fmt/test/build
+- 2026-07-16: commented on #6 and #71, created burst-scrolling PR plus workflow dependency bundle PR, updated monthly summary #62, validated with cargo fmt/test/build
+- 2026-07-15: commented on #82, created perf PR, updated monthly summary #62, validated with cargo fmt/test/build and git diff --check
+- 2026-07-14: created perf draft PR, updated summary #62, validated with cargo fmt/test/build and git diff --check
+- 2026-07-14: created CLI metadata cleanup PR and commented on #72
+
+Notes:
+- Burst scrolling is now implemented on the branch `repo-assist/improve-burst-scrolling-2026-07-16`.
+- Keep the monthly activity issue current with new PRs/comments and remove checklist items once actioned.
