@@ -4,10 +4,11 @@ Backlog / pending maintainer attention:
 - Review the new CLI metadata draft PR on branch `repo-assist/improve-cli-metadata-cargo-2026-07-21`
 - Review the perf draft PR on branch `repo-assist/perf-reuse-input-buffer-2026-07-15-14d12bd606b4e1cc`
 - Review open PRs #67, #68, #70, #102, plus the workflow dependency bundle PR on branch `repo-assist/eng-workflow-deps-bundle-2026-07-19`, the burst-scrolling PR on branch `repo-assist/improve-burst-scrolling-2026-07-16`, the flush-output PR on branch `repo-assist/fix-output-flush-2026-07-17`, the new flush-output PR on branch `repo-assist/fix-output-flush-2026-07-18`, and the test-boundary PR on branch `repo-assist/test-initial-lines-boundary-2026-07-18`
-- Check comments #6, #22, #60, #61, #63, #64, #66, #71, #72, #73, #74, #75, #80, #82, #88, #103
+- Check comments #6, #22, #60, #61, #63, #64, #66, #71, #72, #74, #75, #80, #82, #88, #103
 - Close issue #73 when superseded/covered
 
 Recent Repo Assist actions:
+- 2026-07-21: closed issue #73 as a duplicate of #71, validated with cargo fmt/test/build, and left a status comment on monthly summary #62 after the body-update tool limit was reached
 - 2026-07-21: created draft PR on `repo-assist/improve-cli-metadata-cargo-2026-07-21`, validated with cargo fmt/check, cargo test, and cargo build, and updated monthly summary #62
 - 2026-07-20: created bundled workflow dependency PR on `repo-assist/eng-workflow-deps-bundle-2026-07-20`, validated with cargo fmt/test/build/git diff --check, updated monthly summary #62, and found no fresh human issue activity worth a new task-2 comment
 - 2026-07-20: resumed perf branch `repo-assist/perf-reuse-input-buffer-2026-07-15-14d12bd606b4e1cc`, validated with cargo fmt/test/build, opened a draft PR, commented on #66, closed #65, and updated monthly summary #62
